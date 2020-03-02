@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: white;
+}
+
+h1 {color: white;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    font-size: 5em;
+}
+
+h2 {font-size: 30px;
+    color:#ff9b57;
+    position: relative;
+    left: -40px;
+    top: 30px;
+}
+
+h3 {color: white;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+h4 {color: white;
+    font-style: italic;
+    font-size: 18px;
+    position: relative;
+    left: 20px;
+    top: 0px;
+}
+
+/* unvisited link */
+a.one:link {
+    color: #212121;
+    font-size: 15px;
+    transition: color .5s;
+    text-decoration: none;
+}
+
+/* visited link */
+a.one:visited {
+    color: #212121;
+    font-size: 15px;
+}
+
+/* mouse over link */
+a.one:hover {
+    color: white;
+    font-size: 15px;
+}
+
+a.one:active {
+    color: #212121;
+    font-size: 15px;
+}
+
+nav li {
+    display: inline;
+    font-size: 25px;
+    line-height: inherit;
+}
+
+#logo {
+    display: inline;
+
+}
+
+#navItems
+{ display: inline;
+  z-index:1;
+  position: inherit;
+  list-style-type:none;
+    text-align: left;
+    float: right;
+}
+
+
