@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: white;
+}
+
+footer {
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
+
+h1 {color: white;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    font-size: 5em;
+}
+
+h2 {font-size: 2em;
+    font-weight: 300;
+    font-style: italic;
+    color:#ff9b57;
+    position: relative;
+    left: -1em;
+    top: .75em;
+}
+
+h3 {color: white;
+    font-weight: 500;
+    font-size: 1.35em;
+}
+
+h4 {color: white;
+    font-style: italic;
+    font-size: 1.2em;
+    font-weight: 300;
+    position: relative;
+    left: 1.3em;
+    top: 0em;
+}
+
+h5 {color: white;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+/* unvisited link */
+a.one:link {
+    color: dimgrey;
+    font-size: 1em;
+    transition: color .5s;
+    text-decoration: none;
+}
+
+/* visited link */
+a.one:visited {
+    color: dimgrey;
+    font-size: 1em;
+}
+
+/* mouse over link */
+a.one:hover {
+    color: white;
+    font-size: 1em;
+}
+
+a.one:active {
+    color: white;
+    font-size: 1em;
+}
+
+/* unvisited link */
+a.two:link {
+    color: #303030;
+    font-size: 1em;
+    transition: color .5s;
+    text-decoration: none;
+}
+
+/* visited link */
+a.two:visited {
+    color: #303030;
+    font-size: 1em;
+}
+
+/* mouse over link */
+a.two:hover {
+    color: white;
+    font-size: 1em;
+}
+
+a.two:active {
+    color: #303030;
+    font-size: 1em;
+}
+
+/* unvisited link */
+a.three:link {
+    color: darkgrey;
+    font-size: 1em;
+    transition: color .5s;
+    text-decoration: none;
+}
+
+/* visited link */
+a.three:visited {
+    color: darkgrey;
+    font-size: 1em;
+}
+
+/* mouse over link */
+a.three:hover {
+    color: white;
+    font-size: 1em;
+}
+
+a.three:active {
+    color: darkgrey;
+    font-size: 1em;
+}
+
+/* unvisited link */
+a.four:link {
+    color: orangered;
+    font-size: 1em;
+    transition: color .5s;
+}
+
+/* visited link */
+a.four:visited {
+    color: orangered;
+    font-size: 1em;
+}
+
+/* mouse over link */
+a.four:hover {
+    color: #ff9b57;
+    font-size: 1em;
+}
+
+a.four:active {
+    color: orangered;
+    font-size: 1em;
+}
+
+nav li {
+    display: inline;
+    font-size: 1em;
+    line-height: inherit;
+}
+
+#logo {
+    display: inline;
+
+}
+
+#navItems
+{ display: inline;
+  z-index:1;
+  position: inherit;
+  list-style-type:none;
+    text-align: left;
+    float: right;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow-wrap: break-word;
+  grid-gap: 24px;
+    position: center;
+    padding-left: 8em;
+    padding-right: 8em;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.3em;
+
+}
+.two {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2 / 3;
+  grid-row: 1;
+}
+.three {
+  grid-column: 3/3;
+  grid-row: 1;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow-wrap: break-word;
+  grid-gap: 24px;
+    position: center;
+    padding-left: 8em;
+    padding-right: 8em;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.3em;
+
+}
+.first {
+  grid-column: 1 / 2;
+  grid-row: 2;
+}
+.second {
+  grid-column: 2 / 2;
+  grid-row: 2;
+}
+
+.pro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow-wrap: break-word;
+  grid-gap: 24px;
+    position: center;
+    padding-left: 8em;
+    padding-right: 8em;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.3em;
+
+}
+.outposttext {
+  grid-column: 1 / 2;
+  grid-row: 1;
+      align-self: center;
+
+}
+.outpostpic {
+  grid-column: 2 / 2;
+  grid-row: 1;
+}
+.bluestonetext {
+  grid-column: 1 / 2;
+  grid-row: 2;
+      align-self: center;
+
+}
+.bluestonepic {
+  grid-column: 2 / 2;
+  grid-row: 2;
+}
+.phimutext {
+  grid-column: 1 / 2;
+  grid-row: 3;
+      align-self: center;
+
+}
+.phimupic {
+  grid-column: 2 / 2;
+  grid-row: 3;
+}
+
+.art {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 24px;
+    position: center;
+    padding-left: 8em;
+    padding-right: 8em;
+
+}
+.art1 {
+  grid-column: 1/3;
+  grid-row: 1;
+      align-self: center;
+}
+.art2 {
+  grid-column: 2 / 3;
+  grid-row: 1;
+      align-self: center;
+}
+.art3 {
+  grid-column: 3 / 3;
+  grid-row: 1;
+      align-self: center;
+}
+.art4 {
+  grid-column: 1 / 3;
+  grid-row: 2;
+      align-self: center;
+}
+.art5 {
+  grid-column: 2 / 3;
+  grid-row: 2;
+      align-self: center;
+}
+.art6 {
+  grid-column: 3 / 3;
+  grid-row: 2;
+      align-self: center;
+}
+.art7 {
+  grid-column: 1 / 3;
+  grid-row: 3;
+      align-self: center;
+}
+.art8 {
+  grid-column: 2 / 3;
+  grid-row: 3;
+      align-self: center;
+}
+.art9 {
+  grid-column: 3 / 3;
+  grid-row: 3;
+      align-self: center;
+}
+
+.resume {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 7em;
+    padding-left: 4em;
+    padding-right: 4em;
+
+
+}
+.resumeleft {
+  grid-column: 1/2;
+  grid-row: 1;
+      align-self: center;
+}
+.resumeright {
+  grid-column: 2 / 2;
+  grid-row: 1;
+      align-self: start;
+}
