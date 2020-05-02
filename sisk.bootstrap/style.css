@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+
+body {
+    background-color: black;
+    font-family: "Roboto Condensed";
+}
+
+
+h1 {
+    font-family: "Roboto Condensed";
+    color: #eaddce;
+    font-weight: 700;
+    text-align: center;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: "Roboto Condensed";
+    color: #eaddce;
+    font-weight: 700;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-family: "Roboto Condensed";
+    color: #ddcab6;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 1.2em;
+    padding-left: 22%;
+    padding-right: 22%;
+}
+
+h4 {
+    font-family: "Roboto Condensed";
+    color: #ddcab6;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 1.4em;
+    padding-left: 22%;
+    padding-right: 22%;
+}
+
+h5 {
+    font-family: "Roboto Condensed";
+    color: #eaddce;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.1em; 
+}
+
+h6 {
+    color: black;
+    font-family: "Roboto Condensed";
+    font-size: 2.7em;
+    font-weight: 700;
+    text-align: center;
+}
+
+ul {
+    color: #eaddce;
+    font-family: "Roboto Condensed";
+    font-size: 1em;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 22%;
+
+}
+
+p {
+    color: black;
+    font-family: "Roboto Condensed";
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align: justify;
+}
+
+nav li {
+    display: inline;
+    font-size: 1.2em;
+    line-height: inherit;
+    padding: 10px;
+}
+
+#logo {
+    display: inline;
+    padding: 15px;
+
+}
+
+.image {
+    object-position: center;
+    padding-left: 22%;
+    padding-right: 22%;
+    width: 100%;
+    height: auto;
+}
+
+#navItems
+{ display: inline;
+  position: inherit;
+  list-style-type: none;
+    text-align: left;
+    float: center;
+    padding: 15px;
+}
+
+/* unvisited link */
+a.one:link {
+    color: #ddcab6;
+    font-size: 1em;
+    transition-duration: color .5s;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* visited link */
+a.one:visited {
+    color: #ddcab6;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+/* mouse over link */
+a.one:hover {
+    color: #eaddce;
+    font-size: 1em;
+    transition-duration: .5s;
+    font-weight: 400;
+}
+
+a.one:active {
+    color: #ddcab6;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+#hair {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+.jumbotron {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 6%;
+    margin-top: 5.5%;
+    background-color: #eaddce;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+.btn-primary {
+    margin: 1%;
+    
+} 
+
+.btn-primary:active {
+    background-color: #ddcab6;
+    outline-color: #ddcab6;
+} 
+
+.btn-primary:hover {
+    color: black;
+    outline-color: #ddcab6;
+    transition-duration: .5s;
+} 
+
+.btn-primary:visited {
+    background-color: #ddcab6;
+    border-color: #ddcab6;
+}
+
+.me {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.art {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 24px;
+    position: center;
+    padding-left: 8em;
+    padding-right: 8em;
+
+}
+.art1 {
+  grid-column: 1/3;
+  grid-row: 1;
+      align-self: center;
+}
+.art2 {
+  grid-column: 2 / 3;
+  grid-row: 1;
+      align-self: center;
+}
+.art3 {
+  grid-column: 3 / 3;
+  grid-row: 1;
+      align-self: center;
+}
+.art4 {
+  grid-column: 1 / 3;
+  grid-row: 2;
+      align-self: center;
+}
+.art5 {
+  grid-column: 2 / 3;
+  grid-row: 2;
+      align-self: center;
+}
+.art6 {
+  grid-column: 3 / 3;
+  grid-row: 2;
+      align-self: center;
+}
+.art7 {
+  grid-column: 1 / 3;
+  grid-row: 3;
+      align-self: center;
+}
+.art8 {
+  grid-column: 2 / 3;
+  grid-row: 3;
+      align-self: center;
+}
+.art9 {
+  grid-column: 3 / 3;
+  grid-row: 3;
+      align-self: center;
+}
+
+.resume {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 7em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+.resumeleft {
+  grid-column: 1/2;
+  grid-row: 1;
+      align-self: center;
+}
+.resumeright {
+  grid-column: 2 / 2;
+  grid-row: 1;
+      align-self: start;
+}
